@@ -1,0 +1,1157 @@
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local pf = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local evov2 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local duckhub = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local darkhub = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local framelabel = Instance.new("TextLabel")
+local arsenal = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local darkhub_2 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local vghub = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local framelabel_2 = Instance.new("TextLabel")
+local owlhub = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local uni = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local cmdx = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local framelabel_3 = Instance.new("TextLabel")
+local unesp = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local bp = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local darkhub_3 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local framelabel_4 = Instance.new("TextLabel")
+local allguns = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local owlhub_2 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local dtl = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local thanks = Instance.new("TextLabel")
+local names = Instance.new("TextLabel")
+local credits = Instance.new("TextLabel")
+local instructions = Instance.new("TextLabel")
+local kat = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
+local darkhub_4 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local framelabel_5 = Instance.new("TextLabel")
+local vghub_2 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local upt = Instance.new("Frame")
+local UICorner_21 = Instance.new("UICorner")
+local v2log = Instance.new("TextLabel")
+local v3log = Instance.new("TextLabel")
+local v1log = Instance.new("TextLabel")
+local v4log = Instance.new("TextLabel")
+local update = Instance.new("TextLabel")
+local v5log = Instance.new("TextLabel")
+local gamemenu = Instance.new("Frame")
+local UICorner_22 = Instance.new("UICorner")
+local kat_2 = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local pf_2 = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local universal = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local bigpaint = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local arsenal_2 = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local comingsoon = Instance.new("TextLabel")
+local lt2 = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local menu = Instance.new("Frame")
+local UICorner_29 = Instance.new("UICorner")
+local info = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local updates = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local scripts = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local title = Instance.new("TextLabel")
+local UICorner_33 = Instance.new("UICorner")
+local version = Instance.new("TextLabel")
+local UICorner_34 = Instance.new("UICorner")
+local lt2_2 = Instance.new("Frame")
+local UICorner_35 = Instance.new("UICorner")
+local shirohub = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local framelabel_6 = Instance.new("TextLabel")
+local framelabel_7 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(79, 79, 100)
+main.Position = UDim2.new(0.628959894, 0, 0.42723155, 0)
+main.Size = UDim2.new(0, 600, 0, 500)
+
+UICorner.CornerRadius = UDim.new(0, 50)
+UICorner.Parent = main
+
+pf.Name = "pf"
+pf.Parent = main
+pf.BackgroundColor3 = Color3.fromRGB(59, 59, 75)
+pf.Position = UDim2.new(0.191666663, 0, 0.219999999, 0)
+pf.Size = UDim2.new(0, 468, 0, 374)
+pf.Visible = false
+
+UICorner_2.CornerRadius = UDim.new(0, 50)
+UICorner_2.Parent = pf
+
+evov2.Name = "evov2"
+evov2.Parent = pf
+evov2.BackgroundColor3 = Color3.fromRGB(163, 163, 206)
+evov2.Position = UDim2.new(0.0470085479, 0, 0.0588235296, 0)
+evov2.Size = UDim2.new(0, 418, 0, 78)
+evov2.Font = Enum.Font.Nunito
+evov2.Text = "Evo V2"
+evov2.TextColor3 = Color3.fromRGB(255, 255, 255)
+evov2.TextScaled = true
+evov2.TextSize = 14.000
+evov2.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 50)
+UICorner_3.Parent = evov2
+
+duckhub.Name = "duckhub"
+duckhub.Parent = pf
+duckhub.BackgroundColor3 = Color3.fromRGB(163, 163, 206)
+duckhub.Position = UDim2.new(0.0470085479, 0, 0.302139044, 0)
+duckhub.Size = UDim2.new(0, 418, 0, 78)
+duckhub.Font = Enum.Font.Nunito
+duckhub.Text = "Duck Hub"
+duckhub.TextColor3 = Color3.fromRGB(255, 255, 255)
+duckhub.TextScaled = true
+duckhub.TextSize = 14.000
+duckhub.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 50)
+UICorner_4.Parent = duckhub
+
+darkhub.Name = "darkhub"
+darkhub.Parent = pf
+darkhub.BackgroundColor3 = Color3.fromRGB(163, 163, 206)
+darkhub.Position = UDim2.new(0.0470085479, 0, 0.548128366, 0)
+darkhub.Size = UDim2.new(0, 418, 0, 78)
+darkhub.Font = Enum.Font.Nunito
+darkhub.Text = "Dark Hub"
+darkhub.TextColor3 = Color3.fromRGB(255, 255, 255)
+darkhub.TextScaled = true
+darkhub.TextSize = 14.000
+darkhub.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 50)
+UICorner_5.Parent = darkhub
+
+framelabel.Name = "framelabel"
+framelabel.Parent = pf
+framelabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+framelabel.BackgroundTransparency = 1.000
+framelabel.BorderSizePixel = 0
+framelabel.Position = UDim2.new(0.286324799, 0, 0.909090877, 0)
+framelabel.Size = UDim2.new(0, 200, 0, 21)
+framelabel.Font = Enum.Font.Nunito
+framelabel.Text = "Phantom Forces"
+framelabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+framelabel.TextScaled = true
+framelabel.TextSize = 14.000
+framelabel.TextWrapped = true
+
+arsenal.Name = "arsenal"
+arsenal.Parent = main
+arsenal.BackgroundColor3 = Color3.fromRGB(59, 59, 75)
+arsenal.Position = UDim2.new(0.191666663, 0, 0.219999999, 0)
+arsenal.Size = UDim2.new(0, 468, 0, 374)
+arsenal.Visible = false
+
+UICorner_6.CornerRadius = UDim.new(0, 50)
+UICorner_6.Parent = arsenal
+
+darkhub_2.Name = "darkhub"
+darkhub_2.Parent = arsenal
+darkhub_2.BackgroundColor3 = Color3.fromRGB(163, 163, 206)
+darkhub_2.Position = UDim2.new(0.0470085479, 0, 0.0588235408, 0)
+darkhub_2.Size = UDim2.new(0, 418, 0, 78)
+darkhub_2.Font = Enum.Font.Nunito
+darkhub_2.Text = "Dark Hub"
+darkhub_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+darkhub_2.TextScaled = true
+darkhub_2.TextSize = 14.000
+darkhub_2.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 50)
+UICorner_7.Parent = darkhub_2
+
+vghub.Name = "vghub"
+vghub.Parent = arsenal
+vghub.BackgroundColor3 = Color3.fromRGB(163, 163, 206)
+vghub.Position = UDim2.new(0.0470085479, 0, 0.302139074, 0)
+vghub.Size = UDim2.new(0, 418, 0, 78)
+vghub.Font = Enum.Font.Nunito
+vghub.Text = "V.G Hub"
+vghub.TextColor3 = Color3.fromRGB(255, 255, 255)
+vghub.TextScaled = true
+vghub.TextSize = 14.000
+vghub.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 50)
+UICorner_8.Parent = vghub
+
+framelabel_2.Name = "framelabel"
+framelabel_2.Parent = arsenal
+framelabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+framelabel_2.BackgroundTransparency = 1.000
+framelabel_2.BorderSizePixel = 0
+framelabel_2.Position = UDim2.new(0.286324799, 0, 0.909090877, 0)
+framelabel_2.Size = UDim2.new(0, 200, 0, 21)
+framelabel_2.Font = Enum.Font.Nunito
+framelabel_2.Text = "Arsenal"
+framelabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+framelabel_2.TextScaled = true
+framelabel_2.TextSize = 14.000
+framelabel_2.TextWrapped = true
+
+owlhub.Name = "owlhub"
+owlhub.Parent = arsenal
+owlhub.BackgroundColor3 = Color3.fromRGB(163, 163, 206)
+owlhub.Position = UDim2.new(0.0470085479, 0, 0.548128366, 0)
+owlhub.Size = UDim2.new(0, 418, 0, 78)
+owlhub.Font = Enum.Font.Nunito
+owlhub.Text = "Owl Hub"
+owlhub.TextColor3 = Color3.fromRGB(255, 255, 255)
+owlhub.TextScaled = true
+owlhub.TextSize = 14.000
+owlhub.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 50)
+UICorner_9.Parent = owlhub
+
+uni.Name = "uni"
+uni.Parent = main
+uni.BackgroundColor3 = Color3.fromRGB(59, 59, 75)
+uni.Position = UDim2.new(0.191666663, 0, 0.219999999, 0)
+uni.Size = UDim2.new(0, 468, 0, 374)
+uni.Visible = false
+
+UICorner_10.CornerRadius = UDim.new(0, 50)
+UICorner_10.Parent = uni
+
+cmdx.Name = "cmdx"
+cmdx.Parent = uni
+cmdx.BackgroundColor3 = Color3.fromRGB(163, 163, 206)
+cmdx.Position = UDim2.new(0.0470085479, 0, 0.0588235296, 0)
+cmdx.Size = UDim2.new(0, 418, 0, 78)
+cmdx.Font = Enum.Font.Nunito
+cmdx.Text = "CMD-X"
+cmdx.TextColor3 = Color3.fromRGB(255, 255, 255)
+cmdx.TextScaled = true
+cmdx.TextSize = 14.000
+cmdx.TextWrapped = true
+
+UICorner_11.CornerRadius = UDim.new(0, 50)
+UICorner_11.Parent = cmdx
+
+framelabel_3.Name = "framelabel"
+framelabel_3.Parent = uni
+framelabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+framelabel_3.BackgroundTransparency = 1.000
+framelabel_3.BorderSizePixel = 0
+framelabel_3.Position = UDim2.new(0.286324799, 0, 0.909090877, 0)
+framelabel_3.Size = UDim2.new(0, 200, 0, 21)
+framelabel_3.Font = Enum.Font.Nunito
+framelabel_3.Text = "Universal"
+framelabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+framelabel_3.TextScaled = true
+framelabel_3.TextSize = 14.000
+framelabel_3.TextWrapped = true
+
+unesp.Name = "unesp"
+unesp.Parent = uni
+unesp.BackgroundColor3 = Color3.fromRGB(163, 163, 206)
+unesp.Position = UDim2.new(0.0427350439, 0, 0.304812849, 0)
+unesp.Size = UDim2.new(0, 418, 0, 78)
+unesp.Font = Enum.Font.Nunito
+unesp.Text = "Unnamed ESP"
+unesp.TextColor3 = Color3.fromRGB(255, 255, 255)
+unesp.TextScaled = true
+unesp.TextSize = 14.000
+unesp.TextWrapped = true
+
+UICorner_12.CornerRadius = UDim.new(0, 50)
+UICorner_12.Parent = unesp
+
+bp.Name = "bp"
+bp.Parent = main
+bp.BackgroundColor3 = Color3.fromRGB(59, 59, 75)
+bp.Position = UDim2.new(0.191666663, 0, 0.219999999, 0)
+bp.Size = UDim2.new(0, 468, 0, 374)
+bp.Visible = false
+
+UICorner_13.CornerRadius = UDim.new(0, 50)
+UICorner_13.Parent = bp
+
+darkhub_3.Name = "darkhub"
+darkhub_3.Parent = bp
+darkhub_3.BackgroundColor3 = Color3.fromRGB(163, 163, 206)
+darkhub_3.Position = UDim2.new(0.0469999984, 0, 0.0588235408, 0)
+darkhub_3.Size = UDim2.new(0, 418, 0, 78)
+darkhub_3.Font = Enum.Font.Nunito
+darkhub_3.Text = "Dark Hub"
+darkhub_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+darkhub_3.TextScaled = true
+darkhub_3.TextSize = 14.000
+darkhub_3.TextWrapped = true
+
+UICorner_14.CornerRadius = UDim.new(0, 50)
+UICorner_14.Parent = darkhub_3
+
+framelabel_4.Name = "framelabel"
+framelabel_4.Parent = bp
+framelabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+framelabel_4.BackgroundTransparency = 1.000
+framelabel_4.BorderSizePixel = 0
+framelabel_4.Position = UDim2.new(0.286324799, 0, 0.909090877, 0)
+framelabel_4.Size = UDim2.new(0, 200, 0, 21)
+framelabel_4.Font = Enum.Font.Nunito
+framelabel_4.Text = "BIG Paintball"
+framelabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+framelabel_4.TextScaled = true
+framelabel_4.TextSize = 14.000
+framelabel_4.TextWrapped = true
+
+allguns.Name = "allguns"
+allguns.Parent = bp
+allguns.BackgroundColor3 = Color3.fromRGB(163, 163, 206)
+allguns.Position = UDim2.new(0.0469999984, 0, 0.302139044, 0)
+allguns.Size = UDim2.new(0, 418, 0, 78)
+allguns.Font = Enum.Font.Nunito
+allguns.Text = "All Guns Unlocked"
+allguns.TextColor3 = Color3.fromRGB(255, 255, 255)
+allguns.TextScaled = true
+allguns.TextSize = 14.000
+allguns.TextWrapped = true
+
+UICorner_15.CornerRadius = UDim.new(0, 50)
+UICorner_15.Parent = allguns
+
+owlhub_2.Name = "owlhub"
+owlhub_2.Parent = bp
+owlhub_2.BackgroundColor3 = Color3.fromRGB(163, 163, 206)
+owlhub_2.Position = UDim2.new(0.0469999984, 0, 0.548128366, 0)
+owlhub_2.Size = UDim2.new(0, 418, 0, 78)
+owlhub_2.Font = Enum.Font.Nunito
+owlhub_2.Text = "Owl Hub"
+owlhub_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+owlhub_2.TextScaled = true
+owlhub_2.TextSize = 14.000
+owlhub_2.TextWrapped = true
+
+UICorner_16.CornerRadius = UDim.new(0, 50)
+UICorner_16.Parent = owlhub_2
+
+dtl.Name = "dtl"
+dtl.Parent = main
+dtl.BackgroundColor3 = Color3.fromRGB(59, 59, 75)
+dtl.Position = UDim2.new(0.191666663, 0, 0.219999999, 0)
+dtl.Size = UDim2.new(0, 468, 0, 374)
+
+UICorner_17.CornerRadius = UDim.new(0, 50)
+UICorner_17.Parent = dtl
+
+thanks.Name = "thanks"
+thanks.Parent = dtl
+thanks.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+thanks.BackgroundTransparency = 1.000
+thanks.BorderSizePixel = 0
+thanks.Position = UDim2.new(0.162393168, 0, 0.0187165774, 0)
+thanks.Size = UDim2.new(0, 316, 0, 50)
+thanks.Font = Enum.Font.Nunito
+thanks.Text = "Thanks for using Noob Hub"
+thanks.TextColor3 = Color3.fromRGB(255, 255, 255)
+thanks.TextScaled = true
+thanks.TextSize = 14.000
+thanks.TextWrapped = true
+
+names.Name = "names"
+names.Parent = dtl
+names.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+names.BackgroundTransparency = 1.000
+names.BorderSizePixel = 0
+names.Position = UDim2.new(0.0641025677, 0, 0.171122983, 0)
+names.Size = UDim2.new(0, 408, 0, 48)
+names.Font = Enum.Font.Nunito
+names.Text = "Creator - ExtremeNoobeth (One man job lol)"
+names.TextColor3 = Color3.fromRGB(255, 255, 255)
+names.TextScaled = true
+names.TextSize = 14.000
+names.TextWrapped = true
+
+credits.Name = "credits"
+credits.Parent = dtl
+credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+credits.BackgroundTransparency = 1.000
+credits.BorderSizePixel = 0
+credits.Position = UDim2.new(0.162393168, 0, 0.133689836, 0)
+credits.Size = UDim2.new(0, 316, 0, 29)
+credits.Font = Enum.Font.Nunito
+credits.Text = "--Credits--"
+credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+credits.TextScaled = true
+credits.TextSize = 14.000
+credits.TextWrapped = true
+
+instructions.Name = "instructions"
+instructions.Parent = dtl
+instructions.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+instructions.BackgroundTransparency = 1.000
+instructions.BorderSizePixel = 0
+instructions.Position = UDim2.new(0.012820513, 0, 0.831550777, 0)
+instructions.Size = UDim2.new(0, 455, 0, 60)
+instructions.Font = Enum.Font.Nunito
+instructions.Text = "Press \"Insert\" to close the GUI"
+instructions.TextColor3 = Color3.fromRGB(255, 255, 255)
+instructions.TextScaled = true
+instructions.TextSize = 14.000
+instructions.TextWrapped = true
+
+kat.Name = "kat"
+kat.Parent = main
+kat.BackgroundColor3 = Color3.fromRGB(59, 59, 75)
+kat.Position = UDim2.new(0.191666663, 0, 0.219999999, 0)
+kat.Size = UDim2.new(0, 468, 0, 374)
+kat.Visible = false
+
+UICorner_18.CornerRadius = UDim.new(0, 50)
+UICorner_18.Parent = kat
+
+darkhub_4.Name = "darkhub"
+darkhub_4.Parent = kat
+darkhub_4.BackgroundColor3 = Color3.fromRGB(163, 163, 206)
+darkhub_4.Position = UDim2.new(0.0470085479, 0, 0.0588235408, 0)
+darkhub_4.Size = UDim2.new(0, 418, 0, 78)
+darkhub_4.Font = Enum.Font.Nunito
+darkhub_4.Text = "Dark Hub"
+darkhub_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+darkhub_4.TextScaled = true
+darkhub_4.TextSize = 14.000
+darkhub_4.TextWrapped = true
+
+UICorner_19.CornerRadius = UDim.new(0, 50)
+UICorner_19.Parent = darkhub_4
+
+framelabel_5.Name = "framelabel"
+framelabel_5.Parent = kat
+framelabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+framelabel_5.BackgroundTransparency = 1.000
+framelabel_5.BorderSizePixel = 0
+framelabel_5.Position = UDim2.new(0.286324799, 0, 0.909090877, 0)
+framelabel_5.Size = UDim2.new(0, 200, 0, 21)
+framelabel_5.Font = Enum.Font.Nunito
+framelabel_5.Text = "K.A.T. (Knife Ability Test)"
+framelabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+framelabel_5.TextScaled = true
+framelabel_5.TextSize = 14.000
+framelabel_5.TextWrapped = true
+
+vghub_2.Name = "vghub"
+vghub_2.Parent = kat
+vghub_2.BackgroundColor3 = Color3.fromRGB(163, 163, 206)
+vghub_2.Position = UDim2.new(0.0470085479, 0, 0.302139074, 0)
+vghub_2.Size = UDim2.new(0, 418, 0, 78)
+vghub_2.Font = Enum.Font.Nunito
+vghub_2.Text = "V.G Hub"
+vghub_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+vghub_2.TextScaled = true
+vghub_2.TextSize = 14.000
+vghub_2.TextWrapped = true
+
+UICorner_20.CornerRadius = UDim.new(0, 50)
+UICorner_20.Parent = vghub_2
+
+upt.Name = "upt"
+upt.Parent = main
+upt.BackgroundColor3 = Color3.fromRGB(59, 59, 75)
+upt.Position = UDim2.new(0.191666663, 0, 0.219999999, 0)
+upt.Size = UDim2.new(0, 468, 0, 374)
+upt.Visible = false
+
+UICorner_21.CornerRadius = UDim.new(0, 50)
+UICorner_21.Parent = upt
+
+v2log.Name = "v2log"
+v2log.Parent = upt
+v2log.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v2log.BackgroundTransparency = 1.000
+v2log.BorderSizePixel = 0
+v2log.Position = UDim2.new(0.0641025677, 0, 0.5775401, 0)
+v2log.Size = UDim2.new(0, 408, 0, 35)
+v2log.Font = Enum.Font.Nunito
+v2log.Text = "V2 - added support for universal scripts (cmd-x)"
+v2log.TextColor3 = Color3.fromRGB(255, 255, 255)
+v2log.TextScaled = true
+v2log.TextSize = 14.000
+v2log.TextWrapped = true
+
+v3log.Name = "v3log"
+v3log.Parent = upt
+v3log.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v3log.BackgroundTransparency = 1.000
+v3log.BorderSizePixel = 0
+v3log.Position = UDim2.new(0.0641025677, 0, 0.467914432, 0)
+v3log.Size = UDim2.new(0, 408, 0, 45)
+v3log.Font = Enum.Font.Nunito
+v3log.Text = "V3 - added support for BIG Paintball, added this details section, added new scripts (Owl Hub, Unnamed ESP)"
+v3log.TextColor3 = Color3.fromRGB(255, 255, 255)
+v3log.TextScaled = true
+v3log.TextSize = 14.000
+v3log.TextWrapped = true
+
+v1log.Name = "v1log"
+v1log.Parent = upt
+v1log.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v1log.BackgroundTransparency = 1.000
+v1log.BorderSizePixel = 0
+v1log.Position = UDim2.new(0.0619658157, 0, 0.669740081, 0)
+v1log.Size = UDim2.new(0, 408, 0, 23)
+v1log.Font = Enum.Font.Nunito
+v1log.Text = "V1 - release"
+v1log.TextColor3 = Color3.fromRGB(255, 255, 255)
+v1log.TextScaled = true
+v1log.TextSize = 14.000
+v1log.TextWrapped = true
+
+v4log.Name = "v4log"
+v4log.Parent = upt
+v4log.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v4log.BackgroundTransparency = 1.000
+v4log.BorderSizePixel = 0
+v4log.Position = UDim2.new(0.0619658157, 0, 0.398395717, 0)
+v4log.Size = UDim2.new(0, 408, 0, 26)
+v4log.Font = Enum.Font.Nunito
+v4log.Text = "V4 - Added support for K.A.T."
+v4log.TextColor3 = Color3.fromRGB(255, 255, 255)
+v4log.TextScaled = true
+v4log.TextSize = 14.000
+v4log.TextWrapped = true
+
+update.Name = "update"
+update.Parent = upt
+update.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+update.BackgroundTransparency = 1.000
+update.BorderSizePixel = 0
+update.Position = UDim2.new(0.162393168, 0, 0.0213903747, 0)
+update.Size = UDim2.new(0, 316, 0, 42)
+update.Font = Enum.Font.Nunito
+update.Text = "--Update Log--"
+update.TextColor3 = Color3.fromRGB(255, 255, 255)
+update.TextScaled = true
+update.TextSize = 14.000
+update.TextWrapped = true
+
+v5log.Name = "v5log"
+v5log.Parent = upt
+v5log.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v5log.BackgroundTransparency = 1.000
+v5log.BorderSizePixel = 0
+v5log.Position = UDim2.new(0.061965812, 0, 0.264705867, 0)
+v5log.Size = UDim2.new(0, 408, 0, 50)
+v5log.Font = Enum.Font.Nunito
+v5log.Text = "V5 - Redesigned GUI (Better Navigation, etc), support for Lumber Tycoon 2 Added"
+v5log.TextColor3 = Color3.fromRGB(255, 255, 255)
+v5log.TextScaled = true
+v5log.TextSize = 14.000
+v5log.TextWrapped = true
+
+gamemenu.Name = "gamemenu"
+gamemenu.Parent = main
+gamemenu.BackgroundColor3 = Color3.fromRGB(79, 79, 100)
+gamemenu.Position = UDim2.new(-0.343333334, 0, 0, 0)
+gamemenu.Size = UDim2.new(0, 306, 0, 500)
+
+UICorner_22.CornerRadius = UDim.new(0, 50)
+UICorner_22.Parent = gamemenu
+
+kat_2.Name = "kat"
+kat_2.Parent = gamemenu
+kat_2.BackgroundColor3 = Color3.fromRGB(119, 119, 150)
+kat_2.Position = UDim2.new(0.0636363626, 0, 0.147000015, 0)
+kat_2.Size = UDim2.new(0, 80, 0, 40)
+kat_2.Font = Enum.Font.Nunito
+kat_2.Text = "K.A.T."
+kat_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+kat_2.TextScaled = true
+kat_2.TextSize = 14.000
+kat_2.TextWrapped = true
+
+UICorner_23.CornerRadius = UDim.new(0, 50)
+UICorner_23.Parent = kat_2
+
+pf_2.Name = "pf"
+pf_2.Parent = gamemenu
+pf_2.BackgroundColor3 = Color3.fromRGB(119, 119, 150)
+pf_2.Position = UDim2.new(0.354486048, 0, 0.241999954, 0)
+pf_2.Size = UDim2.new(0, 80, 0, 40)
+pf_2.Font = Enum.Font.Nunito
+pf_2.Text = "Phantom Forces"
+pf_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+pf_2.TextScaled = true
+pf_2.TextSize = 14.000
+pf_2.TextWrapped = true
+
+UICorner_24.CornerRadius = UDim.new(0, 50)
+UICorner_24.Parent = pf_2
+
+universal.Name = "universal"
+universal.Parent = gamemenu
+universal.BackgroundColor3 = Color3.fromRGB(119, 119, 150)
+universal.Position = UDim2.new(0.0636363328, 0, 0.0539998785, 0)
+universal.Size = UDim2.new(0, 169, 0, 40)
+universal.Font = Enum.Font.Nunito
+universal.Text = "Universal"
+universal.TextColor3 = Color3.fromRGB(255, 255, 255)
+universal.TextScaled = true
+universal.TextSize = 14.000
+universal.TextWrapped = true
+
+UICorner_25.CornerRadius = UDim.new(0, 50)
+UICorner_25.Parent = universal
+
+bigpaint.Name = "bigpaint"
+bigpaint.Parent = gamemenu
+bigpaint.BackgroundColor3 = Color3.fromRGB(119, 119, 150)
+bigpaint.Position = UDim2.new(0.0636363626, 0, 0.241999984, 0)
+bigpaint.Size = UDim2.new(0, 80, 0, 40)
+bigpaint.Font = Enum.Font.Nunito
+bigpaint.Text = "BIG Paintball"
+bigpaint.TextColor3 = Color3.fromRGB(255, 255, 255)
+bigpaint.TextScaled = true
+bigpaint.TextSize = 14.000
+bigpaint.TextWrapped = true
+
+UICorner_26.CornerRadius = UDim.new(0, 50)
+UICorner_26.Parent = bigpaint
+
+arsenal_2.Name = "arsenal"
+arsenal_2.Parent = gamemenu
+arsenal_2.BackgroundColor3 = Color3.fromRGB(119, 119, 150)
+arsenal_2.Position = UDim2.new(0.354486048, 0, 0.145999998, 0)
+arsenal_2.Size = UDim2.new(0, 80, 0, 40)
+arsenal_2.Font = Enum.Font.Nunito
+arsenal_2.Text = "Arsenal"
+arsenal_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+arsenal_2.TextScaled = true
+arsenal_2.TextSize = 14.000
+arsenal_2.TextWrapped = true
+
+UICorner_27.CornerRadius = UDim.new(0, 50)
+UICorner_27.Parent = arsenal_2
+
+comingsoon.Name = "comingsoon"
+comingsoon.Parent = gamemenu
+comingsoon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+comingsoon.BackgroundTransparency = 1.000
+comingsoon.BorderSizePixel = 0
+comingsoon.Position = UDim2.new(0.0196078438, 0, 0.899999976, 0)
+comingsoon.Size = UDim2.new(0, 200, 0, 50)
+comingsoon.Font = Enum.Font.Nunito
+comingsoon.Text = "More Scripts Coming Soon"
+comingsoon.TextColor3 = Color3.fromRGB(255, 255, 255)
+comingsoon.TextScaled = true
+comingsoon.TextSize = 14.000
+comingsoon.TextWrapped = true
+
+lt2.Name = "lt2"
+lt2.Parent = gamemenu
+lt2.BackgroundColor3 = Color3.fromRGB(119, 119, 150)
+lt2.Position = UDim2.new(0.207427219, 0, 0.333999991, 0)
+lt2.Size = UDim2.new(0, 80, 0, 40)
+lt2.Font = Enum.Font.Nunito
+lt2.Text = "Lumber Tycoon 2"
+lt2.TextColor3 = Color3.fromRGB(255, 255, 255)
+lt2.TextScaled = true
+lt2.TextSize = 14.000
+lt2.TextWrapped = true
+
+UICorner_28.CornerRadius = UDim.new(0, 50)
+UICorner_28.Parent = lt2
+
+menu.Name = "menu"
+menu.Parent = main
+menu.BackgroundColor3 = Color3.fromRGB(119, 119, 150)
+menu.Size = UDim2.new(0, 100, 0, 500)
+
+UICorner_29.CornerRadius = UDim.new(0, 25)
+UICorner_29.Parent = menu
+
+info.Name = "info"
+info.Parent = menu
+info.BackgroundColor3 = Color3.fromRGB(163, 163, 206)
+info.Position = UDim2.new(0.0999999046, 0, 0.183999985, 0)
+info.Size = UDim2.new(0, 80, 0, 40)
+info.Font = Enum.Font.Nunito
+info.Text = "Info"
+info.TextColor3 = Color3.fromRGB(255, 255, 255)
+info.TextScaled = true
+info.TextSize = 14.000
+info.TextWrapped = true
+
+UICorner_30.CornerRadius = UDim.new(0, 50)
+UICorner_30.Parent = info
+
+updates.Name = "updates"
+updates.Parent = menu
+updates.BackgroundColor3 = Color3.fromRGB(163, 163, 206)
+updates.Position = UDim2.new(0.0899999067, 0, 0.279999971, 0)
+updates.Size = UDim2.new(0, 80, 0, 40)
+updates.Font = Enum.Font.Nunito
+updates.Text = "Updates"
+updates.TextColor3 = Color3.fromRGB(255, 255, 255)
+updates.TextScaled = true
+updates.TextSize = 14.000
+updates.TextWrapped = true
+
+UICorner_31.CornerRadius = UDim.new(0, 50)
+UICorner_31.Parent = updates
+
+scripts.Name = "scripts"
+scripts.Parent = menu
+scripts.BackgroundColor3 = Color3.fromRGB(163, 163, 206)
+scripts.Position = UDim2.new(0.0899999067, 0, 0.887999952, 0)
+scripts.Size = UDim2.new(0, 80, 0, 40)
+scripts.Font = Enum.Font.Nunito
+scripts.Text = "Scripts"
+scripts.TextColor3 = Color3.fromRGB(255, 255, 255)
+scripts.TextScaled = true
+scripts.TextSize = 14.000
+scripts.TextWrapped = true
+
+UICorner_32.CornerRadius = UDim.new(0, 50)
+UICorner_32.Parent = scripts
+
+title.Name = "title"
+title.Parent = main
+title.BackgroundColor3 = Color3.fromRGB(119, 119, 150)
+title.Size = UDim2.new(0, 600, 0, 92)
+title.Font = Enum.Font.Nunito
+title.Text = "Noob Hub"
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
+title.TextScaled = true
+title.TextSize = 14.000
+title.TextWrapped = true
+
+UICorner_33.CornerRadius = UDim.new(0, 25)
+UICorner_33.Parent = title
+
+version.Name = "version"
+version.Parent = title
+version.BackgroundColor3 = Color3.fromRGB(79, 79, 100)
+version.Position = UDim2.new(0.0178392753, 0, 0.0802173913, 0)
+version.Size = UDim2.new(0, 77, 0, 77)
+version.Font = Enum.Font.Nunito
+version.Text = "Ver. 5"
+version.TextColor3 = Color3.fromRGB(255, 255, 255)
+version.TextScaled = true
+version.TextSize = 14.000
+version.TextWrapped = true
+
+UICorner_34.CornerRadius = UDim.new(0, 50)
+UICorner_34.Parent = version
+
+lt2_2.Name = "lt2"
+lt2_2.Parent = main
+lt2_2.BackgroundColor3 = Color3.fromRGB(59, 59, 75)
+lt2_2.Position = UDim2.new(0.191666663, 0, 0.219999999, 0)
+lt2_2.Size = UDim2.new(0, 468, 0, 374)
+
+UICorner_35.CornerRadius = UDim.new(0, 50)
+UICorner_35.Parent = lt2_2
+
+shirohub.Name = "shirohub"
+shirohub.Parent = lt2_2
+shirohub.BackgroundColor3 = Color3.fromRGB(163, 163, 206)
+shirohub.Position = UDim2.new(0.0470085479, 0, 0.0588235296, 0)
+shirohub.Size = UDim2.new(0, 418, 0, 78)
+shirohub.Font = Enum.Font.Nunito
+shirohub.Text = "Shiro Hub"
+shirohub.TextColor3 = Color3.fromRGB(255, 255, 255)
+shirohub.TextScaled = true
+shirohub.TextSize = 14.000
+shirohub.TextWrapped = true
+
+UICorner_36.CornerRadius = UDim.new(0, 50)
+UICorner_36.Parent = shirohub
+
+framelabel_6.Name = "framelabel"
+framelabel_6.Parent = lt2_2
+framelabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+framelabel_6.BackgroundTransparency = 1.000
+framelabel_6.BorderSizePixel = 0
+framelabel_6.Position = UDim2.new(0.286324799, 0, 0.909090877, 0)
+framelabel_6.Size = UDim2.new(0, 200, 0, 21)
+framelabel_6.Font = Enum.Font.Nunito
+framelabel_6.Text = "Universal"
+framelabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+framelabel_6.TextScaled = true
+framelabel_6.TextSize = 14.000
+framelabel_6.TextWrapped = true
+
+framelabel_7.Name = "framelabel"
+framelabel_7.Parent = lt2_2
+framelabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+framelabel_7.BackgroundTransparency = 1.000
+framelabel_7.BorderSizePixel = 0
+framelabel_7.Position = UDim2.new(0.149572656, 0, 0.267379671, 0)
+framelabel_7.Size = UDim2.new(0, 327, 0, 50)
+framelabel_7.Font = Enum.Font.Nunito
+framelabel_7.Text = "Note: Shiro Hub does take FOREVER to load"
+framelabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+framelabel_7.TextScaled = true
+framelabel_7.TextSize = 14.000
+framelabel_7.TextWrapped = true
+
+-- Scripts:
+
+local function HWPFVH_fake_script() -- evov2.activate 
+	local script = Instance.new('LocalScript', evov2)
+
+	script.Parent.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+	end)
+end
+coroutine.wrap(HWPFVH_fake_script)()
+local function SZZEA_fake_script() -- duckhub.activate 
+	local script = Instance.new('LocalScript', duckhub)
+
+	script.Parent.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://ducksite.xyz/ceri/main.lua"))()
+	end)
+end
+coroutine.wrap(SZZEA_fake_script)()
+local function XEYZBH_fake_script() -- darkhub.activate 
+	local script = Instance.new('LocalScript', darkhub)
+
+	script.Parent.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+	end)
+end
+coroutine.wrap(XEYZBH_fake_script)()
+local function XQUDQZH_fake_script() -- darkhub_2.activate 
+	local script = Instance.new('LocalScript', darkhub_2)
+
+	script.Parent.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+	end)
+end
+coroutine.wrap(XQUDQZH_fake_script)()
+local function PTFEDX_fake_script() -- vghub.activate 
+	local script = Instance.new('LocalScript', vghub)
+
+	script.Parent.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end)
+end
+coroutine.wrap(PTFEDX_fake_script)()
+local function OOCMSE_fake_script() -- owlhub.activate 
+	local script = Instance.new('LocalScript', owlhub)
+
+	script.Parent.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+	end)
+end
+coroutine.wrap(OOCMSE_fake_script)()
+local function EQDJE_fake_script() -- cmdx.activate 
+	local script = Instance.new('LocalScript', cmdx)
+
+	script.Parent.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+	end)
+end
+coroutine.wrap(EQDJE_fake_script)()
+local function ANZO_fake_script() -- unesp.activate 
+	local script = Instance.new('LocalScript', unesp)
+
+	script.Parent.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua',true))()
+	end)
+end
+coroutine.wrap(ANZO_fake_script)()
+local function CHTLSRV_fake_script() -- darkhub_3.activate 
+	local script = Instance.new('LocalScript', darkhub_3)
+
+	script.Parent.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+	end)
+end
+coroutine.wrap(CHTLSRV_fake_script)()
+local function POXC_fake_script() -- allguns.activate 
+	local script = Instance.new('LocalScript', allguns)
+
+	script.Parent.MouseButton1Down:connect(function()
+		local library = require(game:GetService("ReplicatedStorage").Framework.Library)
+		local env = getsenv(game:GetService("Players").LocalPlayer.PlayerScripts.Scripts.Game["First Person Controller"])
+		local unlock_all = true
+		local old_fire = library.Network.Fire
+		library.Network.Fire = newcclosure(function(self, ...)
+			local args = {...}
+			if unlock_all and tostring(self) == "Request Respawn" then
+				args[1] = "1"
+			end
+			return old_fire(self, unpack(args))
+		end)
+		local old_own = env.DoesOwnGun
+		env.DoesOwnGun = function(...)
+			return (unlock_all and true) or old_own(...)
+		end
+		local old_own_gun = library.GunCmds.DoesOwnGun
+		library.GunCmds.DoesOwnGun = newcclosure(function(self, ...)
+			return (unlock_all and true) or old_own_gun(self, ...)
+		end)
+		for _, gun in next, library.Directory.Guns do
+			gun["offsale"] = false
+		end
+	end)
+end
+coroutine.wrap(POXC_fake_script)()
+local function PLJLERA_fake_script() -- owlhub_2.activate 
+	local script = Instance.new('LocalScript', owlhub_2)
+
+	script.Parent.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+	end)
+end
+coroutine.wrap(PLJLERA_fake_script)()
+local function QAKYGSR_fake_script() -- main.setup 
+	local script = Instance.new('LocalScript', main)
+
+	local main = script.Parent
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+	main.Position = UDim2.new(0.627,0,1.2,0)
+	
+	main:TweenPosition(
+		UDim2.new(0.627,0,0.4,0),
+		"Out",
+		"Quad",
+		.75,
+		false
+	)
+end
+coroutine.wrap(QAKYGSR_fake_script)()
+local function PQHJQBN_fake_script() -- darkhub_4.activate 
+	local script = Instance.new('LocalScript', darkhub_4)
+
+	script.Parent.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+	end)
+end
+coroutine.wrap(PQHJQBN_fake_script)()
+local function SBSGBTG_fake_script() -- vghub_2.activate 
+	local script = Instance.new('LocalScript', vghub_2)
+
+	script.Parent.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end)
+end
+coroutine.wrap(SBSGBTG_fake_script)()
+local function XPVL_fake_script() -- gamemenu.setup 
+	local script = Instance.new('LocalScript', gamemenu)
+
+	local menu = script.Parent
+	menu.Visible = false
+	
+	-- -0.292
+end
+coroutine.wrap(XPVL_fake_script)()
+local function KTET_fake_script() -- kat_2.katopen 
+	local script = Instance.new('LocalScript', kat_2)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.Parent.arsenal.Visible = false
+		script.Parent.Parent.Parent.uni.Visible = false
+		script.Parent.Parent.Parent.pf.Visible = false
+		script.Parent.Parent.Parent.bp.Visible = false
+		script.Parent.Parent.Parent.dtl.Visible = false
+		script.Parent.Parent.Parent.kat.Visible = true
+		script.Parent.Parent.Parent.upt.Visible = false
+		script.Parent.Parent.Parent.lt2.Visible = false
+	end)
+end
+coroutine.wrap(KTET_fake_script)()
+local function PMNHIRQ_fake_script() -- pf_2.pfopen 
+	local script = Instance.new('LocalScript', pf_2)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.Parent.arsenal.Visible = false
+		script.Parent.Parent.Parent.uni.Visible = false
+		script.Parent.Parent.Parent.pf.Visible = true
+		script.Parent.Parent.Parent.bp.Visible = false
+		script.Parent.Parent.Parent.dtl.Visible = false
+		script.Parent.Parent.Parent.kat.Visible = false
+		script.Parent.Parent.Parent.upt.Visible = false
+		script.Parent.Parent.Parent.lt2.Visible = false
+	end)
+end
+coroutine.wrap(PMNHIRQ_fake_script)()
+local function HNGDXD_fake_script() -- universal.uniopen 
+	local script = Instance.new('LocalScript', universal)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.Parent.arsenal.Visible = false
+		script.Parent.Parent.Parent.uni.Visible = true
+		script.Parent.Parent.Parent.pf.Visible = false
+		script.Parent.Parent.Parent.bp.Visible = false
+		script.Parent.Parent.Parent.dtl.Visible = false
+		script.Parent.Parent.Parent.kat.Visible = false
+		script.Parent.Parent.Parent.upt.Visible = false
+		script.Parent.Parent.Parent.lt2.Visible = false
+	end)
+end
+coroutine.wrap(HNGDXD_fake_script)()
+local function LCTTXKZ_fake_script() -- bigpaint.bpopen 
+	local script = Instance.new('LocalScript', bigpaint)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.Parent.arsenal.Visible = false
+		script.Parent.Parent.Parent.uni.Visible = false
+		script.Parent.Parent.Parent.pf.Visible = false
+		script.Parent.Parent.Parent.bp.Visible = true
+		script.Parent.Parent.Parent.dtl.Visible = false
+		script.Parent.Parent.Parent.kat.Visible = false
+		script.Parent.Parent.Parent.upt.Visible = false
+		script.Parent.Parent.Parent.lt2.Visible = false
+	end)
+end
+coroutine.wrap(LCTTXKZ_fake_script)()
+local function AVPB_fake_script() -- arsenal_2.aropen 
+	local script = Instance.new('LocalScript', arsenal_2)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.Parent.arsenal.Visible = true
+		script.Parent.Parent.Parent.uni.Visible = false
+		script.Parent.Parent.Parent.pf.Visible = false
+		script.Parent.Parent.Parent.bp.Visible = false
+		script.Parent.Parent.Parent.dtl.Visible = false
+		script.Parent.Parent.Parent.kat.Visible = false
+		script.Parent.Parent.Parent.upt.Visible = false
+		script.Parent.Parent.Parent.lt2.Visible = false
+	end)
+end
+coroutine.wrap(AVPB_fake_script)()
+local function ARSPTOM_fake_script() -- lt2.lt2open 
+	local script = Instance.new('LocalScript', lt2)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.Parent.arsenal.Visible = false
+		script.Parent.Parent.Parent.uni.Visible = false
+		script.Parent.Parent.Parent.pf.Visible = false
+		script.Parent.Parent.Parent.bp.Visible = false
+		script.Parent.Parent.Parent.dtl.Visible = false
+		script.Parent.Parent.Parent.kat.Visible = false
+		script.Parent.Parent.Parent.upt.Visible = false
+		script.Parent.Parent.Parent.lt2.Visible = true
+	end)
+end
+coroutine.wrap(ARSPTOM_fake_script)()
+local function CRANCI_fake_script() -- info.dtlopen 
+	local script = Instance.new('LocalScript', info)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.Parent.arsenal.Visible = false
+		script.Parent.Parent.Parent.uni.Visible = false
+		script.Parent.Parent.Parent.pf.Visible = false
+		script.Parent.Parent.Parent.bp.Visible = false
+		script.Parent.Parent.Parent.dtl.Visible = true
+		script.Parent.Parent.Parent.kat.Visible = false
+		script.Parent.Parent.Parent.upt.Visible = false
+		script.Parent.Parent.Parent.lt2.Visible = false
+	end)
+end
+coroutine.wrap(CRANCI_fake_script)()
+local function MYNUMD_fake_script() -- updates.uptopen 
+	local script = Instance.new('LocalScript', updates)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.Parent.arsenal.Visible = false
+		script.Parent.Parent.Parent.uni.Visible = false
+		script.Parent.Parent.Parent.pf.Visible = false
+		script.Parent.Parent.Parent.bp.Visible = false
+		script.Parent.Parent.Parent.dtl.Visible = false
+		script.Parent.Parent.Parent.kat.Visible = false
+		script.Parent.Parent.Parent.upt.Visible = true
+		script.Parent.Parent.Parent.lt2.Visible = false
+	end)
+end
+coroutine.wrap(MYNUMD_fake_script)()
+local function KEWP_fake_script() -- scripts.opengames 
+	local script = Instance.new('LocalScript', scripts)
+
+	local i = 0
+	
+	script.Parent.MouseButton1Down:connect(function()
+		i = 1 - i
+		if i == 1 then
+			script.Parent.Parent.Parent.gamemenu.Visible = true
+		else
+			script.Parent.Parent.Parent.gamemenu.Visible = false
+		end
+	end)
+end
+coroutine.wrap(KEWP_fake_script)()
+local function IEYVL_fake_script() -- main.openclose 
+	local script = Instance.new('LocalScript', main)
+
+	local main = script.Parent
+	local uis = game:GetService("UserInputService")
+	local i = 0
+	
+	--UI enabler
+	uis.InputBegan:Connect(function(input, gpe)
+		if input.UserInputType == Enum.UserInputType.Keyboard then
+			if input.KeyCode == Enum.KeyCode.Insert then
+				i = 1 - i
+				if i == 1 then
+					main:TweenPosition(
+						UDim2.new(0.627,0,1.2,0),
+						"Out",
+						"Quad",
+						.75,
+						true
+					)
+				else
+					main:TweenPosition(
+						UDim2.new(0.627,0,0.4,0),
+						"Out",
+						"Quad",
+						.75,
+						true
+					)
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(IEYVL_fake_script)()
+local function KOYMOT_fake_script() -- shirohub.activate 
+	local script = Instance.new('LocalScript', shirohub)
+
+	script.Parent.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/kCub4cHy", true))()
+	end)
+end
+coroutine.wrap(KOYMOT_fake_script)()
