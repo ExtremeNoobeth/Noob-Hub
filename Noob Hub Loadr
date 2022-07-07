@@ -28,7 +28,7 @@ local text = Instance.new("TextLabel")
 local versions = Instance.new("TextLabel")
 local selected = Instance.new("TextLabel")
 
-loadr.Name = "loadr-v1-"..math.random(10,99)..math.random(10,99)..math.random(10,99)
+loadr.Name = "loadr-v1"
 loadr.Parent = game.CoreGui
 loadr.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
