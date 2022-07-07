@@ -1,0 +1,477 @@
+local loadr = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local versionselect = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local scroll = Instance.new("ScrollingFrame")
+local v1 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local v8 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local v7 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local v6 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local v5 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local v4 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local v3 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local v2 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local title = Instance.new("TextLabel")
+local UICorner_11 = Instance.new("UICorner")
+local load = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local text = Instance.new("TextLabel")
+local versions = Instance.new("TextLabel")
+local selected = Instance.new("TextLabel")
+
+loadr.Name = "loadr-v1-"..math.random(10,99)..math.random(10,99)..math.random(10,99)
+loadr.Parent = game.CoreGui
+loadr.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = loadr
+main.AnchorPoint = Vector2.new(0.5, 0.5)
+main.BackgroundColor3 = Color3.fromRGB(93, 81, 132)
+main.Position = UDim2.new(0.5, 0, 0.5, 0)
+main.Size = UDim2.new(0, 400, 0, 200)
+
+UICorner.CornerRadius = UDim.new(0, 15)
+UICorner.Parent = main
+
+versionselect.Name = "versionselect"
+versionselect.Parent = main
+versionselect.AnchorPoint = Vector2.new(0.5, 0.5)
+versionselect.BackgroundColor3 = Color3.fromRGB(65, 58, 94)
+versionselect.Position = UDim2.new(0.206249997, 0, 0.569999993, 0)
+versionselect.Size = UDim2.new(0, 137, 0, 148)
+
+UICorner_2.CornerRadius = UDim.new(0, 15)
+UICorner_2.Parent = versionselect
+
+scroll.Name = "scroll"
+scroll.Parent = versionselect
+scroll.Active = true
+scroll.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+scroll.BackgroundTransparency = 1.000
+scroll.BorderSizePixel = 0
+scroll.Size = UDim2.new(1, 0, 1, 0)
+scroll.ScrollBarThickness = 0
+
+v1.Name = "v1"
+v1.Parent = scroll
+v1.BackgroundColor3 = Color3.fromRGB(124, 108, 175)
+v1.BorderSizePixel = 0
+v1.Position = UDim2.new(0.0583941601, 0, 0.0236486495, 0)
+v1.Size = UDim2.new(0, 121, 0, 17)
+v1.Font = Enum.Font.Nunito
+v1.Text = "V1"
+v1.TextColor3 = Color3.fromRGB(255, 255, 255)
+v1.TextScaled = true
+v1.TextSize = 14.000
+v1.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 15)
+UICorner_3.Parent = v1
+
+v8.Name = "v8"
+v8.Parent = scroll
+v8.BackgroundColor3 = Color3.fromRGB(154, 134, 218)
+v8.BorderSizePixel = 0
+v8.Position = UDim2.new(0.0583941601, 0, 0.601351321, 0)
+v8.Size = UDim2.new(0, 121, 0, 17)
+v8.Font = Enum.Font.Nunito
+v8.Text = "V8 (Latest)"
+v8.TextColor3 = Color3.fromRGB(255, 255, 255)
+v8.TextScaled = true
+v8.TextSize = 14.000
+v8.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 15)
+UICorner_4.Parent = v8
+
+v7.Name = "v7"
+v7.Parent = scroll
+v7.BackgroundColor3 = Color3.fromRGB(124, 108, 175)
+v7.BorderSizePixel = 0
+v7.Position = UDim2.new(0.0583941601, 0, 0.52364862, 0)
+v7.Size = UDim2.new(0, 121, 0, 17)
+v7.Font = Enum.Font.Nunito
+v7.Text = "V7"
+v7.TextColor3 = Color3.fromRGB(255, 255, 255)
+v7.TextScaled = true
+v7.TextSize = 14.000
+v7.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 15)
+UICorner_5.Parent = v7
+
+v6.Name = "v6"
+v6.Parent = scroll
+v6.BackgroundColor3 = Color3.fromRGB(153, 133, 217)
+v6.BorderSizePixel = 0
+v6.Position = UDim2.new(0.0583941601, 0, 0.418918908, 0)
+v6.Size = UDim2.new(0, 121, 0, 17)
+v6.Font = Enum.Font.Nunito
+v6.Text = "V6"
+v6.TextColor3 = Color3.fromRGB(255, 255, 255)
+v6.TextScaled = true
+v6.TextSize = 14.000
+v6.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 15)
+UICorner_6.Parent = v6
+
+v5.Name = "v5"
+v5.Parent = scroll
+v5.BackgroundColor3 = Color3.fromRGB(124, 108, 175)
+v5.BorderSizePixel = 0
+v5.Position = UDim2.new(0.0583941601, 0, 0.337837815, 0)
+v5.Size = UDim2.new(0, 121, 0, 17)
+v5.Font = Enum.Font.Nunito
+v5.Text = "V5"
+v5.TextColor3 = Color3.fromRGB(255, 255, 255)
+v5.TextScaled = true
+v5.TextSize = 14.000
+v5.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 15)
+UICorner_7.Parent = v5
+
+v4.Name = "v4"
+v4.Parent = scroll
+v4.BackgroundColor3 = Color3.fromRGB(153, 133, 217)
+v4.BorderSizePixel = 0
+v4.Position = UDim2.new(0.0583941601, 0, 0.260135114, 0)
+v4.Size = UDim2.new(0, 121, 0, 17)
+v4.Font = Enum.Font.Nunito
+v4.Text = "V4"
+v4.TextColor3 = Color3.fromRGB(255, 255, 255)
+v4.TextScaled = true
+v4.TextSize = 14.000
+v4.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 15)
+UICorner_8.Parent = v4
+
+v3.Name = "v3"
+v3.Parent = scroll
+v3.BackgroundColor3 = Color3.fromRGB(124, 108, 175)
+v3.BorderSizePixel = 0
+v3.Position = UDim2.new(0.0579999983, 0, 0.181999996, 0)
+v3.Size = UDim2.new(0, 121, 0, 17)
+v3.Font = Enum.Font.Nunito
+v3.Text = "V3"
+v3.TextColor3 = Color3.fromRGB(255, 255, 255)
+v3.TextScaled = true
+v3.TextSize = 14.000
+v3.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 15)
+UICorner_9.Parent = v3
+
+v2.Name = "v2"
+v2.Parent = scroll
+v2.BackgroundColor3 = Color3.fromRGB(154, 134, 218)
+v2.BorderSizePixel = 0
+v2.Position = UDim2.new(0.0583941601, 0, 0.101351351, 0)
+v2.Size = UDim2.new(0, 121, 0, 17)
+v2.Font = Enum.Font.Nunito
+v2.Text = "V2"
+v2.TextColor3 = Color3.fromRGB(255, 255, 255)
+v2.TextScaled = true
+v2.TextSize = 14.000
+v2.TextWrapped = true
+
+UICorner_10.CornerRadius = UDim.new(0, 15)
+UICorner_10.Parent = v2
+
+title.Name = "title"
+title.Parent = main
+title.BackgroundColor3 = Color3.fromRGB(124, 108, 175)
+title.BorderSizePixel = 0
+title.Size = UDim2.new(0, 400, 0, 31)
+title.Font = Enum.Font.Nunito
+title.Text = "   Noob Hub Loadr"
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
+title.TextScaled = true
+title.TextSize = 14.000
+title.TextWrapped = true
+title.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_11.CornerRadius = UDim.new(0, 7)
+UICorner_11.Parent = title
+
+load.Name = "load"
+load.Parent = main
+load.BackgroundColor3 = Color3.fromRGB(124, 108, 175)
+load.Position = UDim2.new(0.777499974, 0, 0.819999993, 0)
+load.Size = UDim2.new(0, 79, 0, 24)
+load.Font = Enum.Font.Nunito
+load.Text = "Load"
+load.TextColor3 = Color3.fromRGB(255, 255, 255)
+load.TextScaled = true
+load.TextSize = 14.000
+load.TextWrapped = true
+
+UICorner_12.CornerRadius = UDim.new(0, 15)
+UICorner_12.Parent = load
+
+text.Name = "text"
+text.Parent = main
+text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+text.BackgroundTransparency = 1.000
+text.BorderSizePixel = 0
+text.Position = UDim2.new(0.474999994, 0, 0.155000001, 0)
+text.Size = UDim2.new(0, 200, 0, 50)
+text.Font = Enum.Font.Nunito
+text.Text = "I made this because it would be easier to update a loader lol"
+text.TextColor3 = Color3.fromRGB(255, 255, 255)
+text.TextScaled = true
+text.TextSize = 14.000
+text.TextWrapped = true
+text.TextXAlignment = Enum.TextXAlignment.Right
+
+versions.Name = "versions"
+versions.Parent = main
+versions.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+versions.BackgroundTransparency = 1.000
+versions.BorderSizePixel = 0
+versions.Position = UDim2.new(0.392499983, 0, 0.200000003, 0)
+versions.Size = UDim2.new(0, 7, 0, 148)
+versions.Font = Enum.Font.Nunito
+versions.Text = "versions"
+versions.TextColor3 = Color3.fromRGB(255, 255, 255)
+versions.TextSize = 18.000
+versions.TextWrapped = true
+
+selected.Name = "selected"
+selected.Parent = main
+selected.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+selected.BackgroundTransparency = 1.000
+selected.BorderSizePixel = 0
+selected.Position = UDim2.new(0.777499974, 0, 0.699999988, 0)
+selected.Size = UDim2.new(0, 79, 0, 24)
+selected.Font = Enum.Font.Nunito
+selected.Text = "Selected - V8"
+selected.TextColor3 = Color3.fromRGB(255, 255, 255)
+selected.TextSize = 18.000
+
+-- Scripts:
+
+local function DEAVMJU_fake_script() -- v1.activate 
+	local script = Instance.new('LocalScript', v1)
+
+	_G.nhv1 = 0
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		_G.nhv1 = 1
+		_G.nhv2 = 0
+		_G.nhv3 = 0
+		_G.nhv4 = 0
+		_G.nhv5 = 0
+		_G.nhv6 = 0
+		_G.nhv7 = 0
+		_G.nhv8 = 0
+	end)
+end
+coroutine.wrap(DEAVMJU_fake_script)()
+local function BKDC_fake_script() -- v8.activate 
+	local script = Instance.new('LocalScript', v8)
+
+	_G.nhv8 = 1
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		_G.nhv1 = 0
+		_G.nhv2 = 0
+		_G.nhv3 = 0
+		_G.nhv4 = 0
+		_G.nhv5 = 0
+		_G.nhv6 = 0
+		_G.nhv7 = 0
+		_G.nhv8 = 1
+	end)
+end
+coroutine.wrap(BKDC_fake_script)()
+local function RRULYWV_fake_script() -- v7.activate 
+	local script = Instance.new('LocalScript', v7)
+
+	_G.nhv7 = 0
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		_G.nhv1 = 0
+		_G.nhv2 = 0
+		_G.nhv3 = 0
+		_G.nhv4 = 0
+		_G.nhv5 = 0
+		_G.nhv6 = 0
+		_G.nhv7 = 1
+		_G.nhv8 = 0
+	end)
+end
+coroutine.wrap(RRULYWV_fake_script)()
+local function MCWCGD_fake_script() -- v6.activate 
+	local script = Instance.new('LocalScript', v6)
+
+	_G.nhv6 = 0
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		_G.nhv1 = 0
+		_G.nhv2 = 0
+		_G.nhv3 = 0
+		_G.nhv4 = 0
+		_G.nhv5 = 0
+		_G.nhv6 = 1
+		_G.nhv7 = 0
+		_G.nhv8 = 0
+	end)
+end
+coroutine.wrap(MCWCGD_fake_script)()
+local function AFSG_fake_script() -- v5.activate 
+	local script = Instance.new('LocalScript', v5)
+
+	_G.nhv5 = 0
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		_G.nhv1 = 0
+		_G.nhv2 = 0
+		_G.nhv3 = 0
+		_G.nhv4 = 0
+		_G.nhv5 = 1
+		_G.nhv6 = 0
+		_G.nhv7 = 0
+		_G.nhv8 = 0
+	end)
+end
+coroutine.wrap(AFSG_fake_script)()
+local function XUNZ_fake_script() -- v4.activate 
+	local script = Instance.new('LocalScript', v4)
+
+	_G.nhv4 = 0
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		_G.nhv1 = 0
+		_G.nhv2 = 0
+		_G.nhv3 = 0
+		_G.nhv4 = 1
+		_G.nhv5 = 0
+		_G.nhv6 = 0
+		_G.nhv7 = 0
+		_G.nhv8 = 0
+	end)
+end
+coroutine.wrap(XUNZ_fake_script)()
+local function ZZDXN_fake_script() -- v3.activate 
+	local script = Instance.new('LocalScript', v3)
+
+	_G.nhv3 = 0
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		_G.nhv1 = 0
+		_G.nhv2 = 0
+		_G.nhv3 = 1
+		_G.nhv4 = 0
+		_G.nhv5 = 0
+		_G.nhv6 = 0
+		_G.nhv7 = 0
+		_G.nhv8 = 0
+	end)
+end
+coroutine.wrap(ZZDXN_fake_script)()
+local function LWBZS_fake_script() -- v2.activate 
+	local script = Instance.new('LocalScript', v2)
+
+	_G.nhv2 = 0
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		_G.nhv1 = 0
+		_G.nhv2 = 1
+		_G.nhv3 = 0
+		_G.nhv4 = 0
+		_G.nhv5 = 0
+		_G.nhv6 = 0
+		_G.nhv7 = 0
+		_G.nhv8 = 0
+	end)
+end
+coroutine.wrap(LWBZS_fake_script)()
+local function ACLV_fake_script() -- load.loadhub 
+	local script = Instance.new('LocalScript', load)
+
+	local frame = script.Parent.Parent
+	local gui = script.Parent.Parent.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frame:TweenPosition(
+			UDim2.new(0.5,0,1.25,0),
+			"In",
+			"Quart",
+			0.75,
+			true
+		)
+		wait(.75)
+		if _G.nhv1 == 1 then
+			loadstring(game:HttpGet("https://pastebin.com/raw/24UbBNp3"))();
+		elseif _G.nhv2 == 1 then
+			loadstring(game:HttpGet("https://pastebin.com/raw/Bw5aM9Ch"))();
+		elseif _G.nhv3 == 1 then
+			loadstring(game:HttpGet("https://pastebin.com/raw/UdqLDk8Y"))();
+		elseif _G.nhv4 == 1 then
+			loadstring(game:HttpGet("https://pastebin.com/raw/yJmeNL3R"))();
+		elseif _G.nhv5 == 1 then
+			loadstring(game:HttpGet("https://pastebin.com/raw/QA3LqHyZ"))();
+		elseif _G.nhv6 == 1 then
+			loadstring(game:HttpGet("https://pastebin.com/raw/bsKdpLiY"))();
+		elseif _G.nhv7 == 1 then
+			loadstring(game:HttpGet("https://pastebin.com/raw/NMC6dqHw"))();
+		elseif _G.nhv8 == 1 then
+			loadstring(game:HttpGet("https://pastebin.com/raw/nxfbPLnD"))();
+		end
+		gui:Destroy()
+	end)
+end
+coroutine.wrap(ACLV_fake_script)()
+local function XUYRNQ_fake_script() -- selected.update 
+	local script = Instance.new('LocalScript', selected)
+
+	local text = script.Parent
+	
+	while wait() do
+		if _G.nhv1 == 1 then
+			text.Text = "Selected - V1"
+		elseif _G.nhv2 == 1 then
+			text.Text = "Selected - V2"
+		elseif _G.nhv3 == 1 then
+			text.Text = "Selected - V3"
+		elseif _G.nhv4 == 1 then
+			text.Text = "Selected - V4"
+		elseif _G.nhv5 == 1 then
+			text.Text = "Selected - V5"
+		elseif _G.nhv6 == 1 then
+			text.Text = "Selected - V6"
+		elseif _G.nhv7 == 1 then
+			text.Text = "Selected - V7"
+		elseif _G.nhv8 == 1 then
+			text.Text = "Selected - V8"
+		end
+	end
+end
+coroutine.wrap(XUYRNQ_fake_script)()
+local function KDOK_fake_script() -- main.setup 
+	local script = Instance.new('LocalScript', main)
+
+	local frame = script.Parent
+	frame.Position = UDim2.new(0.5,0,1.25,0)
+	
+	frame:TweenPosition(
+		UDim2.new(0.5,0,0.5,0),
+		"Out",
+		"Quart",
+		0.75,
+		true
+	)
+end
+coroutine.wrap(KDOK_fake_script)()
